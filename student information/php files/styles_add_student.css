@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #3498db; /* Single color background */
+}
+
+.container {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Increased shadow effect */
+    padding: 30px;
+    max-width: 600px; /* Enlarged container */
+    color: #000; /* Black text color */
+    background: #F0FFFF; /* Background color for the container */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    color: #000; /* Black text color for the heading */
+    transition: color 0.5s ease-in-out;
+    font-weight: bold; /* Bold text */
+}
+
+h1:hover {
+    color: #ffcc00; /* Lighter text color on hover */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 8px;
+    color: #000; /* Updated label color to black */
+    transition: color 0.3s ease;
+    font-weight: bold; /* Bold text */
+}
+
+label:hover {
+    color: #ffcc00; /* Lighter label color on hover */
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7; /* Light border color */
+    border-radius: 8px;
+}
+
+button {
+    background: linear-gradient(to right, #16a085, #2ecc71); /* Gradient button color */
+    color: white;
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    font-weight: bold; /* Bold text */
+}
+
+button:hover {
+    background: linear-gradient(to right, #d35400, #e67e22); /* Gradient on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    color: #ffcc00; /* Lighter text color on hover */
+    border: 1px solid #ffcc00; /* Add a border on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Increased shadow effect for the table */
+    background: #d6eaf8; /* Updated table background color */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #bdc3c7; /* Light border color */
+    color: #000; /* Black text color for table headers and cells */
+    font-weight: bold; /* Bold text */
+}
+
+th {
+    background: #3498db; /* Header background color */
+}
+
+tr:hover {
+    background: #3498db; /* Hover color for table rows */
+}
