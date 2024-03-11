@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    background-color: #3498db; /* Change the overall background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    font-size: 3em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    color: #ecf0f1; /* Change the color of the text */
+    transition: color 0.5s ease-in-out;
+}
+
+h1:hover {
+    color: #ffcc00; /* Change the color on hover */
+}
+
+.buttons-container {
+    margin-top: 30px;
+}
+
+button {
+    background: linear-gradient(to right, #16a085, #2ecc71); /* Change the button background color */
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    font-size: 1.2em;
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: linear-gradient(to right, #d35400, #e67e22); /* Change the hover background color */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    color: #ffcc00; /* Change the color on hover */
+    border: 1px solid #ffcc00; /* Add a border on hover */
+}
